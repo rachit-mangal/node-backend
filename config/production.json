@@ -1,0 +1,4 @@
+{
+  "name": "node app - development",
+  "mongodb_url": "mongodb://localhost/playground"
+}
