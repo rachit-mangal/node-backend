@@ -1,0 +1,18 @@
+ [Winston is Logging :  2022-03-05T07:32:25.453Z error: ReferenceError: req is not defined
+    at module.exports (/Users/rachit/Desktop/Apps/node-base/startup/routes.js:26:3)
+    at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:11:28)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+ [Winston is Logging :  2022-03-05T07:32:41.676Z error: TypeError: Cannot read properties of undefined (reading 'pipe')
+    at module.exports (/Users/rachit/Desktop/Apps/node-base/startup/routes.js:26:11)
+    at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:11:28)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
