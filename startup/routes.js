@@ -20,13 +20,13 @@ module.exports = function (app) {
   //   }
   // );
   // console.log(writeStream);
-  var writeStream = fs.createWriteStream("./output");
+  // var writeStream = fs.createWriteStream("./output");
 
-  app.use(
-    morgan(
-      ":date[web] :method :url - :status - :res[content-length] - :response-time ms - :remote-user"
-    )
-  );
+  // app.use(
+  //   morgan(
+  //     ":date[web] :method :url - :status - :res[content-length] - :response-time ms - :remote-user"
+  //   )
+  // );
   // Detailed request log in file.
   // app.use(
   //   morgan(
