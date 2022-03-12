@@ -1,4 +1,4 @@
- [Winston is Logging :  2022-03-12T09:37:03.765Z error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+ [Winston is Logging :  2022-03-12T09:37:03.766Z error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
     at new ConnectionString (/Users/rachit/Desktop/Apps/node-base/node_modules/mongodb-connection-string-url/lib/index.js:85:19)
     at parseOptions (/Users/rachit/Desktop/Apps/node-base/node_modules/mongodb/lib/connection_string.js:217:17)
     at new MongoClient (/Users/rachit/Desktop/Apps/node-base/node_modules/mongodb/lib/mongo_client.js:62:63)
@@ -9,7 +9,7 @@
     at /Users/rachit/Desktop/Apps/node-base/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
     at new Promise (<anonymous>)
     at promiseOrCallback (/Users/rachit/Desktop/Apps/node-base/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
- [Winston is Logging :  2022-03-12T09:37:44.061Z error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+ [Winston is Logging :  2022-03-12T09:37:44.062Z error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
     at new ConnectionString (/Users/rachit/Desktop/Apps/node-base/node_modules/mongodb-connection-string-url/lib/index.js:85:19)
     at parseOptions (/Users/rachit/Desktop/Apps/node-base/node_modules/mongodb/lib/connection_string.js:217:17)
     at new MongoClient (/Users/rachit/Desktop/Apps/node-base/node_modules/mongodb/lib/mongo_client.js:62:63)
@@ -20,7 +20,7 @@
     at /Users/rachit/Desktop/Apps/node-base/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
     at new Promise (<anonymous>)
     at promiseOrCallback (/Users/rachit/Desktop/Apps/node-base/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
- [Winston is Logging :  2022-03-12T09:41:20.957Z error: ReferenceError: accessLogStream is not defined
+ [Winston is Logging :  2022-03-12T09:41:20.959Z error: ReferenceError: accessLogStream is not defined
     at module.exports (/Users/rachit/Desktop/Apps/node-base/startup/routes.js:33:17)
     at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:12:28)
     at Module._compile (node:internal/modules/cjs/loader:1101:14)
@@ -29,7 +29,7 @@
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
- [Winston is Logging :  2022-03-12T09:45:39.823Z error: /Users/rachit/Desktop/Apps/node-base/startup/routes.js:24
+ [Winston is Logging :  2022-03-12T09:45:39.825Z error: /Users/rachit/Desktop/Apps/node-base/startup/routes.js:24
     path.join(__dirname, '../logs/access.log"),
                          ^^^^^^^^^^^^^^^^^^^^^^
 

@@ -19,21 +19,26 @@ module.exports = function (app) {
   //     flags: "a",
   //   }
   // );
-  // console.log(writeStream);
-  // var writeStream = fs.createWriteStream("./output");
 
-  // app.use(
-  //   morgan(
-  //     ":date[web] :method :url - :status - :res[content-length] - :response-time ms - :remote-user"
-  //   )
-  // );
+  var accessLogStream = fs.createWriteStream(
+    path.join(__dirname, "../logs/access.log"),
+    { flags: "a" }
+  );
+
+  // var accessLogStream = fs.createWriteStream("./output");
+
+  app.use(
+    morgan(
+      ":date[web] :method :url - :status - :res[content-length] - :response-time ms - :remote-user"
+    )
+  );
   // Detailed request log in file.
-  // app.use(
-  //   morgan(
-  //     ":date[web] :method :url - :status - :res[content-length] - :response-time ms - :remote-user",
-  //     { stream: accessLogStream }
-  //   )
-  // );
+  app.use(
+    morgan(
+      ":date[web] :method :url - :status - :res[content-length] - :response-time ms - :remote-user",
+      { stream: accessLogStream }
+    )
+  );
 
   app.use("/api/auth", auth);
   app.use("/api/users", users);

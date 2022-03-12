@@ -1,22 +1,50 @@
- [Winston is Logging :  2022-03-05T07:24:21.535Z info: Listening on port 3000
- [Winston is Logging :  2022-03-05T07:26:48.786Z info: Listening on port 3000
- [Winston is Logging :  2022-03-05T07:31:18.244Z info: Listening on port 3000
- [Winston is Logging :  2022-03-05T07:32:25.453Z error: ReferenceError: req is not defined
-    at module.exports (/Users/rachit/Desktop/Apps/node-base/startup/routes.js:26:3)
-    at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:11:28)
+ [Winston is Logging :  2022-03-12T09:37:03.757Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:37:44.051Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:37:53.464Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:37:53.487Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:38:08.116Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:38:20.287Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:38:27.963Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:38:28.008Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:38:53.939Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:38:53.958Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:38:56.823Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:38:56.843Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:39:03.502Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:39:03.520Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:39:25.850Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:39:25.868Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:41:20.957Z error: ReferenceError: accessLogStream is not defined
+    at module.exports (/Users/rachit/Desktop/Apps/node-base/startup/routes.js:33:17)
+    at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:12:28)
     at Module._compile (node:internal/modules/cjs/loader:1101:14)
     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
- [Winston is Logging :  2022-03-05T07:32:41.676Z error: TypeError: Cannot read properties of undefined (reading 'pipe')
-    at module.exports (/Users/rachit/Desktop/Apps/node-base/startup/routes.js:26:11)
-    at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:11:28)
-    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+ [Winston is Logging :  2022-03-12T09:41:35.149Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:41:35.170Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:43:20.986Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:43:21.001Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:43:29.958Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:43:29.975Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:43:57.571Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:43:57.594Z info: Connected to MongoDB
+ [Winston is Logging :  2022-03-12T09:45:39.823Z error: /Users/rachit/Desktop/Apps/node-base/startup/routes.js:24
+    path.join(__dirname, '../logs/access.log"),
+                         ^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
-    at node:internal/main/run_main_module:17:47
- [Winston is Logging :  2022-03-05T07:32:51.994Z info: Listening on port 3000
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/rachit/Desktop/Apps/node-base/index.js:12:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+ [Winston is Logging :  2022-03-12T09:45:43.156Z info: Listening on port 3000
+ [Winston is Logging :  2022-03-12T09:45:43.176Z info: Connected to MongoDB

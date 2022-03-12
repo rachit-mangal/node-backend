@@ -56,6 +56,9 @@ const devLogger = createLogger({
     new transports.File({ filename: "./logs/combined.log", level: "info" }),
     new transports.Console({ level: "info" }),
   ],
+  exceptionHandlers: [
+    new transports.File({ filename: "./logs/exceptions.log" }),
+  ],
 });
 
 const logger = process.env.NODE_END === "development" ? devLogger : prodLogger;
